@@ -20,6 +20,7 @@ class TodoComplete extends Component {
   			<div class= "ToDoListItem" onClick={(e) => this.deleteTodo(this.state.todolist.indexOf(todo), e)}>
 	  		  	<div className="ToDoListItem-title">{todo.title}</div>
 	  		  	<div className="ToDoListItem-description">{todo.desc}</div>
+				</div>
   		));
 	}
 
