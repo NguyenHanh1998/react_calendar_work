@@ -4,6 +4,7 @@ import "./App.css";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import TodoList from "./TodoList.js"
+import Todo from "./Todo.js"
 
 function App() {
   return (

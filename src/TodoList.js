@@ -84,7 +84,7 @@ class TodoIncomplete extends Component{
   			<div class= "ToDoListItem">
 	  		  	<h3 className="ToDoListItem-title">{todo.title}</h3>
 	  		  	<p className="ToDoListItem-description">{todo.desc}</p>
-  		  	</div>
+  		  </div>
   		));
   		return content;
 	}

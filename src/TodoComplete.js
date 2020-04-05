@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ToDoListItem.css';
 import Form from 'react-bootstrap/Form'
+import Todo from './Todo.js'
 
 class TodoComplete extends Component {
 	constructor(props){
@@ -19,7 +20,6 @@ class TodoComplete extends Component {
   			<div class= "ToDoListItem" onClick={(e) => this.deleteTodo(this.state.todolist.indexOf(todo), e)}>
 	  		  	<div className="ToDoListItem-title">{todo.title}</div>
 	  		  	<div className="ToDoListItem-description">{todo.desc}</div>
-  		  	</div>
   		));
 	}
 
